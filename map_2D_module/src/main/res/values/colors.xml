@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryMap">#3F51B5</color>
+    <color name="colorPrimaryDarkMap">#303F9F</color>
+    <color name="colorAccentMap">#FF4081</color>
+    <color name="black_textMap">#333333</color>
+    <color name="black_text2Map">#666666</color>
+    <color name="blueMap">#1DA1F2</color>
+    <color name="colorLightBlueMap">#236be0</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorLightGreyMap">#F4F9FD</color>
+    <color name="colorBlackMap">#000000</color>
+
+</resources>

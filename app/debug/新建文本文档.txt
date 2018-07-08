@@ -1,0 +1,14 @@
+    <Button
+                    android:id="@+id/project_button_0"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@drawable/button_style"
+                    android:ellipsize="marquee"
+                    android:gravity="center"
+                    android:textColor="@color/my_text_color"
+
+                    android:text="²é¿´ÏêÇé"/>

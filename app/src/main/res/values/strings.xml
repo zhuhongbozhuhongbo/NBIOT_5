@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">NBIOT_5</string>
+    <string name="select_btn_0">泥浆处理器</string>
+    <string name="select_btn_1">吊车</string>
+    <string name="select_btn_2">一代机</string>
+    <string name="select_btn_3">二代机</string>
+    <string name="your_string"><u>doubisongzhiyi</u></string>
+    <string name="infowindow_navigation">导航</string>
+    <string name="infowindow_call">电话</string>
+    <string name="agent_addr">地址：%1$s</string>
+
+
+    <string name="notifyTitle">提示</string>
+    <string name="notifyMsg">当前应用缺少必要权限。\n\n请点击\"设置\"-\"权限\"-打开所需权限。</string>
+    <string name="setting">设置</string>
+    <string name="cancel">取消</string>
+</resources>

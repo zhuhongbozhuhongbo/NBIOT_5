@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nbiot_5.HomePageActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+        <include
+            layout="@layout/nbiot_toolbar"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <LinearLayout
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:background="@drawable/tab_checked"
+            android:id="@+id/home_page_4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <ImageView
+                android:focusable="false"
+                android:clickable="false"
+                android:src="@drawable/tab_project_checked"
+                android:layout_gravity="center_vertical"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+            <TextView
+                android:focusable="false"
+                android:clickable="false"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/colorLightGrey"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:text="项目管理"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:background="@drawable/tab_unchecked"
+            android:id="@+id/home_page_5"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <ImageView
+                android:focusable="false"
+                android:clickable="false"
+                android:src="@drawable/tab_device_checked"
+                android:layout_gravity="center_vertical"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+            <TextView
+                android:focusable="false"
+                android:clickable="false"
+                android:layout_gravity="center_vertical"
+                android:textSize="20sp"
+                android:textColor="@color/colorLightGrey"
+                android:gravity="center"
+                android:text="设备管理"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp" />
+    <!--        加android:focusable="false"
+            android:clickable="false"是为了禁用其响应点击-->
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="17"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <com.amap.api.maps.MapView
+            android:id="@+id/home_page_mapview_0"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorLightGrey"/>
+
+    <TableLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:stretchColumns="*">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/home_page_0"
+                android:src="@drawable/tab_home"
+                android:layout_width="35dp"
+                android:layout_height="35dp"/>
+
+            <ImageView
+                android:id="@+id/home_page_1"
+                android:src="@drawable/tab_news"
+                android:layout_width="35dp"
+                android:layout_height="35dp"/>
+
+            <ImageView
+                android:id="@+id/home_page_2"
+                android:src="@drawable/tab_maintain"
+                android:layout_width="35dp"
+                android:layout_height="35dp"/>
+
+            <ImageView
+                android:id="@+id/home_page_3"
+                android:src="@drawable/tab_account"
+                android:layout_width="35dp"
+                android:layout_height="35dp"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:textSize="12sp"
+                android:layout_width="35dp"
+                android:layout_height="15dp"
+                android:gravity="center"
+                android:text="首页"/>
+            <TextView
+                android:textSize="12sp"
+                android:layout_width="35dp"
+                android:layout_height="15dp"
+                android:gravity="center"
+                android:text="行业资讯"/>
+            <TextView
+                android:textSize="12sp"
+                android:layout_width="35dp"
+                android:layout_height="15dp"
+                android:gravity="center"
+                android:text="设备维护"/>
+            <TextView
+                android:textSize="12sp"
+                android:layout_width="35dp"
+                android:layout_height="15dp"
+                android:gravity="center"
+                android:text="我的账户"/>
+
+        </TableRow>
+
+
+
+    </TableLayout>
+</LinearLayout>
